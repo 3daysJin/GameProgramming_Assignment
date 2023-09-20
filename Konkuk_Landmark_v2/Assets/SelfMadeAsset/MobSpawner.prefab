@@ -45,6 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6ea597394716f47aaac2c312503ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 4215860526041985095, guid: 3a26b673c6310e544b8cce3f0eaa68cb, type: 3}
+  startTime: 1
+  endTime: 5
+  spawnRate: 0.5
+  areaRange: 20
 --- !u!1001 &7128037802625143231
 PrefabInstance:
   m_ObjectHideFlags: 0
