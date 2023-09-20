@@ -16,6 +16,12 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //feature: sprint
+        if(Input.GetKey(KeyCode.LeftShift)){
+            speed = 20;
+        }else{
+            speed = 10;
+        }
         if(Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow))
         { transform.Translate(0,0,speed * Time.deltaTime); }
         if(Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow))

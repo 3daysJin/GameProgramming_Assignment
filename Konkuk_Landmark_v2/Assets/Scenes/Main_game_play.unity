@@ -4150,17 +4150,17 @@ PrefabInstance:
     - target: {fileID: 465582000434249582, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103.39
+      value: 95.21
       objectReference: {fileID: 0}
     - target: {fileID: 465582000434249582, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 31.41
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 465582000434249582, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 174.52
+      value: 171.4
       objectReference: {fileID: 0}
     - target: {fileID: 465582000434249582, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
@@ -4197,6 +4197,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: area
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1484506062}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: endTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: areaRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: spawnRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793455205889259264, guid: 896c8574820b1da408238d79f68e31c4,
+        type: 3}
+      propertyPath: startTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7128037802624749319, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4205,7 +4235,7 @@ PrefabInstance:
     - target: {fileID: 7128037802624749319, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7128037802624749319, guid: 896c8574820b1da408238d79f68e31c4,
         type: 3}
@@ -7025,7 +7055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484506063}
   m_Layer: 0
-  m_Name: Emeny
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
