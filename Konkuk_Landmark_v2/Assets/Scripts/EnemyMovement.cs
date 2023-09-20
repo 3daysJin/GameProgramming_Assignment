@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public GameObject targetPosition;
     public float speed;
     bool isMoving = false;
     private Vector3 destination;
@@ -12,7 +13,6 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        destination = null;
     }
     Vector3 Return_RandomDestination(){
         Vector3 originPosition = this.transform.position;
@@ -27,11 +27,12 @@ public class EnemyMovement : MonoBehaviour
     {
         if(!isMoving){
             isMoving = true;
-            destination = Return_RandomDestination;
+            destination = Return_RandomDestination();
+            targetPosition.transform.position = destination;
         }else{
-            if((transform.position - destination)<0.01)
+            if(transform.position == targetPosition.transform.position){
                 isMoving = false;
+            }
         }
-        transform.position = Vector3.MoveTowards(transform.position, destination, 0.1f * speed);
     }
 }
